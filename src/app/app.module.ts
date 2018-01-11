@@ -5,11 +5,13 @@ import { AppRoutingModule } from './/app-routing.module';
 
 import { AppComponent } from './app.component';
 import { FactoryComponent } from './factory/factory.component';
+import { BuilderComponent } from './builder/builder.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FactoryComponent,
+    BuilderComponent,
   ],
   imports: [
     BrowserModule,
